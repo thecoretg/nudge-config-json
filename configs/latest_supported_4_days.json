@@ -1,7 +1,7 @@
 {
     "optionalFeatures": {
         "acceptableCameraUsage": true,
-        "acceptableScreenSharingUsage": true, 
+        "acceptableScreenSharingUsage": true,
         "aggressiveUserExperience": false,
         "aggressiveUserFullScreenExperience": false,
         "attemptToCheckForSupportedDevice": true,
@@ -33,7 +33,7 @@
         "elapsedRefreshCycle": 300,
         "imminentRefreshCycle": 900,
         "imminentWindowTime": 24,
-        "nudgeMajorUpgradeEventLaunch": 90,
+        "nudgeMajorUpgradeEventLaunchDelay": 30,
         "nudgeMinorUpdateEventLaunchDelay": 4,
         "nudgeRefreshCycle": 60,
         "randomDelay": true,
