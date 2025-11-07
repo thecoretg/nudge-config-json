@@ -33,7 +33,6 @@
         "elapsedRefreshCycle": 300,
         "imminentRefreshCycle": 900,
         "imminentWindowTime": 24,
-        "nudgeMajorUpgradeEventLaunchDelay": 70,
         "nudgeMinorUpdateEventLaunchDelay": 10,
         "nudgeRefreshCycle": 60,
         "randomDelay": true,

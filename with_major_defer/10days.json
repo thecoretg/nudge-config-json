@@ -12,12 +12,12 @@
         {
             "aboutUpdateURL": "https://scribehow.com/page/macOS_Updates__NcxKJo7-SG6PKeyHOEyeyA",
             "requiredMinimumOSVersion": "latest-supported",
-            "activelyExploitedCVEsMajorUpgradeSLA": 28,
-            "activelyExploitedCVEsMinorUpdateSLA": 28,
-            "nonActivelyExploitedCVEsMajorUpgradeSLA": 35,
-            "nonActivelyExploitedCVEsMinorUpdateSLA": 35,
-            "standardMajorUpgradeSLA": 42,
-            "standardMinorUpdateSLA": 42
+            "activelyExploitedCVEsMajorUpgradeSLA": 24,
+            "activelyExploitedCVEsMinorUpdateSLA": 24,
+            "nonActivelyExploitedCVEsMajorUpgradeSLA": 31,
+            "nonActivelyExploitedCVEsMinorUpdateSLA": 31,
+            "standardMajorUpgradeSLA": 38,
+            "standardMinorUpdateSLA": 38
         }
     ],
     "userExperience": {
@@ -33,8 +33,8 @@
         "elapsedRefreshCycle": 300,
         "imminentRefreshCycle": 900,
         "imminentWindowTime": 24,
-        "nudgeMajorUpgradeEventLaunchDelay": 74,
-        "nudgeMinorUpdateEventLaunchDelay": 14,
+        "nudgeMajorUpgradeEventLaunchDelay": 90,
+        "nudgeMinorUpdateEventLaunchDelay": 10,
         "nudgeRefreshCycle": 60,
         "randomDelay": true,
         "maxRandomDelayInSeconds": 1200
