@@ -1,0 +1,61 @@
+{
+    "optionalFeatures": {
+        "acceptableCameraUsage": true,
+        "acceptableScreenSharingUsage": true,
+        "aggressiveUserExperience": false,
+        "aggressiveUserFullScreenExperience": false,
+        "attemptToCheckForSupportedDevice": true,
+        "attemptToFetchMajorUpgrade": false,
+        "enforceMinorUpdates": true
+    },
+    "osVersionRequirements": [
+        {
+            "aboutUpdateURL": "https://scribehow.com/page/macOS_Updates__NcxKJo7-SG6PKeyHOEyeyA",
+            "requiredMinimumOSVersion": "latest-supported",
+            "activelyExploitedCVEsMajorUpgradeSLA": 18,
+            "activelyExploitedCVEsMinorUpdateSLA": 18,
+            "nonActivelyExploitedCVEsMajorUpgradeSLA": 25,
+            "nonActivelyExploitedCVEsMinorUpdateSLA": 25,
+            "standardMajorUpgradeSLA": 32,
+            "standardMinorUpdateSLA": 32
+        }
+    ],
+    "userExperience": {
+        "allowGracePeriods": false,
+        "allowLaterDeferralButton": true,
+        "allowUserQuitDeferrals": true,
+        "allowedDeferrals": 1000000,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+        "calendarDeferralUnit": "approachingWindowTime",
+        "initialRefreshCycle": 18000,
+        "approachingRefreshCycle": 7200,
+        "approachingWindowTime": 72,
+        "elapsedRefreshCycle": 300,
+        "imminentRefreshCycle": 900,
+        "imminentWindowTime": 24,
+        "nudgeMajorUpgradeEventLaunchDelay": 64,
+        "nudgeMinorUpdateEventLaunchDelay": 4,
+        "nudgeRefreshCycle": 60,
+        "randomDelay": true,
+        "maxRandomDelayInSeconds": 1200
+    },
+    "userInterface": {
+        "iconDarkPath": "/Library/TheCoreTG/nudge/tctg_logo_navy.png",
+        "iconLightPath": "/Library/TheCoreTG/nudge/tctg_logo_navy.png",
+        "showDeferralCount": true,
+        "simpleMode": true,
+        "updateElements": [
+            {
+                "_language": "en",
+                "actionButtonText": "Update Device",
+                "customDeferralButtonText": "Custom",
+                "customDeferralDropdownText": "Defer",
+                "informationButtonText": "More Info",
+                "mainHeader": "macOS Update Required",
+                "oneDayDeferralButtonText": "One Day",
+                "oneHourDeferralButtonText": "One Hour",
+                "primaryQuitButtonText": "Later"
+            }
+        ]
+    }
+}
